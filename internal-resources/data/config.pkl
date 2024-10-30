@@ -12,9 +12,9 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Module Name]"
+  friendlyName = "Running Your First Docker Container"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "running-your-first-docker-container"
   type = "Lesson"
 }
 
@@ -24,13 +24,20 @@ courses {
     name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
-      mls.setup
-      mls.concepts
-      mls.microlesson01
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.microlesson02) {
-        type = "Level Up content"
-      }
+      mls.gettingStartedWithDockerHub
+      mls.theContainerLifecycle
+      mls.dockerCommands
+      mls.creatingCustomDockerImages
+    }
+  }
+  new {
+    name = "mea"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.gettingStartedWithDockerHub
+      mls.theContainerLifecycle
+      mls.dockerCommands
+      mls.creatingCustomDockerImages
     }
   }
 }

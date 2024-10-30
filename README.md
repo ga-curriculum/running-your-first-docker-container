@@ -1,21 +1,22 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Module Name]</span>
+  <span class="headline">Running Your First Docker Container</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this module, students will learn the fundamentals of Docker and its role in container management. They will explore how Docker streamlines the development and deployment processes, making it a vital tool in modern engineering practices. Understanding Docker not only enhances their technical skills but also prepares them for real-world applications in software development and operations.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Setting up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills covered                     |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills covered                     |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills covered                     |
-| **Total content**                                   | -- |                                         |
+| Lesson                                                                                                       | Est. Delivery Time | Skills                                                        |
+| ------------------------------------------------------------------------------------------------------------ | :----------------: | ------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                                                   |       0 min        | Setting up the development environment.                       |
+| [Getting Started with Docker Hub](./getting-started-with-docker-hub/README.md)                               |       15 min       | Understanding Docker Hub and image management.                |
+| [The Container Lifecycle](./the-container-lifecycle/README.md)                                               |       15 min       | Learning about container states and lifecycle management.     |
+| [Docker Commands](./docker-commands/README.md)                                                               |       30 min       | Executing essential Docker commands for managing containers.  |
+| [Creating Custom Docker Images with Dockerfiles](./creating-custom-docker-images-with-dockerfiles/README.md) |       20 min       | Writing and understanding Dockerfiles to build custom images. |
+| **Total content**                                                                                            |       80 min       |                                                               |
 
 ## References
 
@@ -25,17 +26,12 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Intro to Docker
 
-### Deployed sites
+### Github Pages Sites
 
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
-
-🐙 [Repository](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/running-your-first-docker-container/canvas-landing-pages/fallback)
+- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/running-your-first-docker-container/canvas-landing-pages/mea)
 
 ### Resources
 

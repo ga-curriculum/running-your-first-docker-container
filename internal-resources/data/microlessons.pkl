@@ -9,23 +9,30 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+gettingStartedWithDockerHub = new Template.Microlesson {
+  friendlyName = "Getting Started with Docker Hub"
+  dirName = "getting-started-with-docker-hub"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+theContainerLifecycle = new Template.Microlesson {
+  friendlyName = "The Container Lifecycle"
+  dirName = "the-container-lifecycle"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+dockerCommands = new Template.Microlesson {
+  friendlyName = "Docker Commands"
+  dirName = "docker-commands"
+  type = "Content"
+  videoUrl = ""
+}
+
+creatingCustomDockerImages = new Template.Microlesson {
+  friendlyName = "Creating Custom Docker Images with Dockerfiles"
+  dirName = "creating-custom-docker-images-with-dockerfiles"
   type = "Content"
   videoUrl = ""
 }

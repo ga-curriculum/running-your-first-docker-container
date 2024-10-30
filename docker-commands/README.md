@@ -67,11 +67,13 @@ To list all containers, including those that have stopped, use:
 docker ps --all
 ```
 
+The output will look something like this:
+
 ```text
-CONTAINER ID   IMAGE                                 COMMAND                  CREATED          STATUS                       PORTS                    NAMES
-2ce9bdb14238   hello-world                           "/hello"                 52 minutes ago   Created                                               vibrant_benz
-f7eea52fa97e   busybox                               "ping google.com"        17 hours ago     Exited (0) 17 hours ago                               jovial_nash
-570646e6503c   busybox                               "ls"                     17 hours ago     Exited (0) 17 hours ago                               intelligent_lederberg
+CONTAINER ID   IMAGE                   COMMAND                  CREATED          STATUS                     PORTS             NAMES
+2ce9bdb14238   hello-world             "/hello"                 52 minutes ago   Created                                      vibrant_benz
+f7eea52fa97e   busybox                 "ping google.com"        17 hours ago     Exited (0) 17 hours ago                      jovial_nash
+570646e6503c   busybox                 "ls"                     17 hours ago     Exited (0) 17 hours ago                      intelligent_lederberg
 ```
 
 ## 3. `docker start`

@@ -19,7 +19,7 @@ According to [Docker’s documentation](https://docs.docker.com/engine/reference
 
 With a Dockerfile, you can:
 
-- Select the base OS or runtime (e.g., Alpine, Ubuntu, Node.js).
+- Select the base OS or runtime (ex: Alpine, Ubuntu, Node.js).
 
 - Install dependencies.
 
@@ -37,7 +37,7 @@ A Dockerfile must be named `Dockerfile` without any file extensions and is case-
 
 Let’s look at an example of a Dockerfile and break down what each line does:
 
-```
+```plaintext
 FROM tomcat:8.0-alpine
 
 LABEL maintainer="tristan.hall@generalassemb.ly"

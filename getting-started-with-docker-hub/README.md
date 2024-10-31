@@ -49,8 +49,6 @@ You might have even seen an error message initially that looks like this:
 Unable to find image 'hello-world:latest' locally
 ```
 
-<br>
-
 Followed by:
 
 ```text

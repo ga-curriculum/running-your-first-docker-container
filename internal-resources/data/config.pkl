@@ -24,6 +24,7 @@ courses {
     name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
+      mls.setup
       mls.gettingStartedWithDockerHub
       mls.theContainerLifecycle
       mls.dockerCommands
@@ -34,6 +35,7 @@ courses {
     name = "mea"
     microlessons {
       // Add microlessons here, in the order they should be delivered
+      mls.setup
       mls.gettingStartedWithDockerHub
       mls.theContainerLifecycle
       mls.dockerCommands

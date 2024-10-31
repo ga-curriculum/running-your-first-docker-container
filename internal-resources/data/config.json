@@ -14,6 +14,12 @@
       "logoUrl": "",
       "microlessons": [
         {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
           "friendlyName": "Getting Started with Docker Hub",
           "dirName": "getting-started-with-docker-hub",
           "type": "Content",
@@ -64,6 +70,12 @@
       "name": "mea",
       "logoUrl": "",
       "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
         {
           "friendlyName": "Getting Started with Docker Hub",
           "dirName": "getting-started-with-docker-hub",

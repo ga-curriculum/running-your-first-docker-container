@@ -10,6 +10,7 @@
 <img src="./assets/docker-icon-lg.png" alt="Docker Logo" style="width:400px;"/>
 
 <br>
+[source](https://www.loft.sh/blog/11-of-the-best-open-source-kubernetes-tools-2021-edition)
 
 ## Introduction to Dockerfiles
 
@@ -74,3 +75,27 @@ Docker provides many other instructions for fine-tuning how your image is built 
 We’ll explore additional instructions as needed.
 
 Here is an exhaustive [Docker Reference Guide](https://docs.docker.com/reference/dockerfile/) on Dockerfiles.
+
+## Building your Image
+
+Once you’ve created your **Dockerfile**, you’re ready to build a custom Docker image tailored to your application.
+
+To build the image using the Dockerfile you created, run the following command in your terminal:
+
+```bash
+docker build -t <your-image-name> .
+```
+
+Replace `<your-image-name>` with a name of your choice for the new image. The `.` at the end specifies that the Dockerfile is located in the current directory.
+
+After building, you can verify your new image by running:
+
+```bash
+docker images
+```
+
+Once your custom image is ready, you can use it to run a container as usual with:
+
+```bash
+docker run <your-image-name>
+```

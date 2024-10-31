@@ -5,6 +5,8 @@
 
 **Learning objective:** By the end of this lesson, students will be able to execute essential Docker commands to create, monitor, manage, remove containers, and view container logs.
 
+<img src="./assets/docker-commands.jpeg" alt="Docker Commands for Docker Architecture" style="width:700px;"/>
+
 ## Docker Commands
 
 This lesson introduces key **Docker commands** that help us manage containers and images. By understanding these commands, you’ll be able to create, monitor, and clean up containers in a way that optimizes your system resources.
@@ -125,7 +127,37 @@ This is especially helpful for troubleshooting containers that have exited unexp
 
 > **Important Note**: You don’t need to type the entire container ID to run a command. As long as the first few characters are unique to that container, Docker can identify it. For example, if your container `ID` is `3ddc6041a39d`, you can simply use `docker stop 3dd`, and Docker will still recognize the container.
 
-## 6. `docker exec`
+## 6. `docker pull`
+
+The `docker pull` command downloads existing images from a Docker registry (like Docker Hub) to your local machine.
+
+- **When to Use:**
+  - When you need a pre-built image that is publicly available or that you have previously built and pushed to a registry.
+  - When you want to update an existing image to the latest version.
+
+### Example
+
+```bash
+docker pull ubuntu:latest
+```
+
+---
+
+## 7. `docker build`
+
+The `docker build` command creates a new Docker image from a **Dockerfile**, which contains a set of instructions on how to build that image.
+
+- **When to Use:**
+  - When you have custom application code or configurations that need to be included in a Docker image.
+  - When you want to create an image that includes specific dependencies or configurations tailored to your application.
+
+### Example
+
+```bash
+docker build -t my-custom-image:latest .
+```
+
+## 8. `docker exec`
 
 The `docker exec` command lets you run additional commands in a running container, such as launching an interactive shell.
 
@@ -135,7 +167,7 @@ docker exec -it <container-id> /bin/sh
 
 The `-it` flag makes the terminal interactive, so you can use shell commands like `ls` and `cd` to explore the container. Type `exit` to leave the shell.
 
-## 7. `docker rm`
+## 9. `docker rm`
 
 The `docker rm` command removes stopped containers, freeing up resources.
 
@@ -151,7 +183,7 @@ To remove a running container, use the `-f` or `--force` flag:
 docker rm -f <container-id>
 ```
 
-## 8. `docker image ls`
+## 10. `docker image ls`
 
 Lists all images in your local Docker cache, which stores downloaded images to speed up future container creation.
 
@@ -159,7 +191,7 @@ Lists all images in your local Docker cache, which stores downloaded images to s
 docker image ls
 ```
 
-## 9. `docker system prune`
+## 11. `docker system prune`
 
 This command cleans up unused resources, including stopped containers, networks, dangling images, and build cache.
 

@@ -74,7 +74,7 @@ Docker provides many other instructions for fine-tuning how your image is built 
 
 We’ll explore additional instructions as needed.
 
-Here is an exhaustive [Docker Reference Guide](https://docs.docker.com/reference/dockerfile/) on Dockerfiles.
+Here is the official [Docker Reference Guide](https://docs.docker.com/reference/dockerfile/) on Dockerfile instructions.
 
 ## Building your Image
 

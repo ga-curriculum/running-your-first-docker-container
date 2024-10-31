@@ -5,7 +5,12 @@
 
 **Learning objective:** By the end of this lesson, students will be able to execute essential Docker commands to create, monitor, manage, remove containers, and view container logs.
 
+<br>
+
 <img src="./assets/docker-commands.jpeg" alt="Docker Commands for Docker Architecture" style="width:700px;"/>
+
+<br>
+[source](https://www.loft.sh/blog/11-of-the-best-open-source-kubernetes-tools-2021-edition)
 
 ## Docker Commands
 
@@ -72,10 +77,10 @@ docker ps --all
 The output will look something like this:
 
 ```text
-CONTAINER ID   IMAGE                   COMMAND                  CREATED          STATUS                     PORTS             NAMES
-2ce9bdb14238   hello-world             "/hello"                 52 minutes ago   Created                                      vibrant_benz
-f7eea52fa97e   busybox                 "ping google.com"        17 hours ago     Exited (0) 17 hours ago                      jovial_nash
-570646e6503c   busybox                 "ls"                     17 hours ago     Exited (0) 17 hours ago                      intelligent_lederberg
+CONTAINER ID  IMAGE        COMMAND            CREATED         STATUS                   PORTS  NAMES
+2ce9bdb14238  hello-world  "/hello"           52 minutes ago  Created                         vibrant_benz
+f7eea52fa97e  busybox      "ping google.com"  17 hours ago    Exited (0) 17 hours ago         jovial_nash
+570646e6503c  busybox      "ls"               17 hours ago    Exited (0) 17 hours ago         intelligent_lederberg
 ```
 
 ## 3. `docker start`

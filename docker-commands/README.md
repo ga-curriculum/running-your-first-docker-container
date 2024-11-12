@@ -3,7 +3,7 @@
   <span class="subhead">Docker Commands</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to execute essential Docker commands to create, monitor, manage, remove containers, and view container logs.
+**Learning objective:** By the end of this lesson, students will be able to execute key Docker commands to create, monitor, manage, remove containers, and view container logs.
 
 <br>
 

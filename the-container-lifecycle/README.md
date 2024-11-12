@@ -22,7 +22,7 @@ When we use `docker run`, Docker is actually performing two steps:
 - Create a container based on an image.
 - Start the container by executing its default startup command.
 
-This is why `docker run` is essentially `docker create` + `docker start`.
+This is why `docker run` is basically the same as `docker create` + `docker start`.
 
 ## Creating and Starting a Container
 

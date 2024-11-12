@@ -32,7 +32,7 @@ The result is a fully customizable image that’s purpose-built for your applica
 
 ### Naming and Format
 
-A Dockerfile must be named `Dockerfile` without any file extensions and is case-sensitive. This standardized naming is essential for Docker to recognize and build it correctly.
+A Dockerfile must be named `Dockerfile` without any file extensions and is case-sensitive. This standardized naming is required for Docker to recognize and build it correctly.
 
 ### Sample Dockerfile
 
